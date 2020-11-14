@@ -56,15 +56,15 @@ Demonstrate, using a REST-API designed by you, how to perform all CRUD operation
 
 Geo-location and Geojson<br>
 Explain and demonstrate basic Geo-JSON, involving as a minimum, Points and Polygons<br>
-- see day 5 & 6
+- see day 5 & 6<br>
 Explain and demonstrate ways to create Geo-JSON test data<br>
-- see day 5 & 6
+- see day 5 & 6<br>
 Explain the typical order of longitude and latitude used by Server-Side APIs and Client-Side APIs<br>
-- Server-side: lat / lon
-- Client-side: lon / lat
+- Server-side: lat / lon<br>
+- Client-side: lon / lat<br>
 Explain and demonstrate a REST API that implements geo-features, using a relevant geo-library and plain JavaScript<br>
-- see day 5 & 6
+- see day 5 & 6<br>
 Explain and demonstrate a REST API that implements geo-features, using Mongodb’s geospatial queries and indexes.<br>
-- see day 5 & 6
+- see day 5 & 6<br>
 Explain and demonstrate how you have tested the gameFacade and gameAPI for the game-related parts of the period exercises<br>
-- see day 5 & 6
+- see day 5 & 6<br>
