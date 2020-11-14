@@ -14,18 +14,23 @@ Explain the difference between Debug outputs and ApplicationLogging. What’s wr
 Demonstrate a system using application logging and environment controlled debug statements.<br>
 - See code in repo.
 Explain, using relevant examples, concepts related to testing a REST-API using Node/JavaScript/Typescript + relevant packages <br>
+- Plenty of examples in repo
 Explain a setup for Express/Node/Test/Mongo-DB development with Typescript, and how it handles "secret values",  debug and testing.<br>
+- Plenty of examples in repo
 <br>
-Explain, preferably using an example, how you have deployed your node/Express applications, and which of the Express Production best practices you have followed.<br>
-Explain possible steps to deploy many node/Express servers on the same droplet, how to deploy the code and how to ensure servers will continue to operate, even after a droplet restart.<br>
-Explain, your chosen strategy to deploy a Node/Express application including how to solve the following deployment problems:<br>
-Ensure that you Node-process restarts after a (potential) exception that closed the application<br>
-Ensure that you Node-process restarts after a server (Ubuntu) restart<br>
-Ensure that you can run “many” node-applications on a single droplet on the same port (80)<br>
-<br>
+
 Explain, using relevant examples, the Express concept; middleware.<br>
+- Middleare function have access to the req and res object and the next function, which is a function in the express router which executes middleware that comes after the current middleware, when invoked. 
+Middleware can do the follwing:
+- End request response cycle
+- Call next middleware in the stack
+- Execute any code
+- Make changes to req and res objects
+
 Explain, using relevant examples, your strategy for implementing a REST-API with Node/Express  + TypeScript and demonstrate how you have tested the API.<br>
+- plenty of examples in repo
 Explain, using relevant examples, how to test JavaScript/Typescript Backend Code, relevant packages (Mocha, Chai etc.) and how to test asynchronous code.<br>
+- plenty of examples in repo
 <br><br>
 NoSQL and MongoDB <br>
 Explain, generally, what is meant by a NoSQL database.<br>
