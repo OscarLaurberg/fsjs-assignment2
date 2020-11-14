@@ -65,7 +65,7 @@ describe("Verify /gameapi/getPostIfReached", () => {
 
   after(async () => { })
 
-  it.only("Should find team2, since inside range", async function () {
+  it("Should find team2, since inside range", async function () {
     const newPosition = { userName: "t1", password: "secret", lat: 55.77, lon: 12.48, distance: DISTANCE_TO_SEARCH }
     const config = {
       method: 'POST',
@@ -95,12 +95,20 @@ describe("Verify /gameapi/getPostIfReached", () => {
     expect(result[0].userName).to.be.equal('t2')
   })
 
-  xit("Should NOT find team2, since not in range", async function () {
-    //TODO
-  })
 
-  xit("Should NOT find team2, since since credentials are wrong", async function () {
-    //TODO
+  it.only("Should NOT find team2, since since credentials are wrong", async function () {
+    const newPosition = { userName: 't1', password: '456456', lat:55.77, lon: 12.48, distance: DISTANCE_TO_SEARCH+2}
+    const config = {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(newPosition)    
+    }
+    const result = await fetch(`${URL}/gameapi/nearbyplayers`, config).then(r => r.json());
+    expect(result.message).to.be.equal('wrong username or password')
+    expect(result.code).to.be.equal(403);
   })
 
   xit("Should .....", async () => {

@@ -37,7 +37,6 @@ router.get('/:userName', async function (req:any, res, next) {
 });
 
 router.get('/', async function (req, res, next) {
-  console.log('called')
   try {
     const users = await userFacade.getAllUsers();
     const usersDTO = users.map((user) => {
