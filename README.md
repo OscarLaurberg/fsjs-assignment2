@@ -12,6 +12,7 @@ Explain the difference between Debug outputs and ApplicationLogging. What’s wr
 - The debugger allows for us to step into a function and see how it behaves step by step. With console.log(..) statments, you have to type in manually and also remember to remove the log statements again. 
 <br>
 Demonstrate a system using application logging and environment controlled debug statements.<br>
+- See code in repo.
 Explain, using relevant examples, concepts related to testing a REST-API using Node/JavaScript/Typescript + relevant packages <br>
 Explain a setup for Express/Node/Test/Mongo-DB development with Typescript, and how it handles "secret values",  debug and testing.<br>
 <br>
