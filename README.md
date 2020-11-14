@@ -3,7 +3,7 @@ Assignment 2 in full stack javascript
 
 Learning goals:<br>
 Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using, for example, Java/JAX-RS/Tomcat<br>
-#It's fast and easy to setup a working app with node.js 
+*It's fast and easy to setup a working app with node.js 
 
 
 
