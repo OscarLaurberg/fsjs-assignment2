@@ -40,7 +40,7 @@ Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, c
 - It's easy to setup
 - Works great for small simple applications
 - Data structure not as strict. 2 documents in same collections, don't have to have same attributes.
-- You can use indexes to enhance performance issues etc
+- You can use indexes to enhance performance etc
 
 ### CONS:
 - Data constraints are created manually
