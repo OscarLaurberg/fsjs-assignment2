@@ -3,10 +3,10 @@ Assignment 2 in full stack javascript
 
 Learning goals:<br>
 Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using, for example, Java/JAX-RS/Tomcat<br>
--It's fast and easy to setup a working app with node.js 
--It's also easy to setup and add middleware
--It's a good thing that you can use same language in front and backend
--Way easier to set up webserver and API's (a lot less code is required)
+- It's fast and easy to setup a working app with node.js 
+- It's also easy to setup and add middleware
+- It's a good thing that you can use same language in front and backend
+- Way easier to set up webserver and API's (a lot less code is required)
 
 Explain the difference between Debug outputs and ApplicationLogging. What’s wrong with console.log(..) statements in our backend code.<br>
 - The debugger allows for us to step into a function and see how it behaves step by step. With console.log(..) statments, you have to type in manually and also remember to remove the log statements again. 
