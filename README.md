@@ -20,8 +20,8 @@ Explain a setup for Express/Node/Test/Mongo-DB development with Typescript, and 
 <br>
 
 Explain, using relevant examples, the Express concept; middleware.<br>
-- Middleare function have access to the req and res object and the next function, which is a function in the express router which executes middleware that comes after the current middleware, when invoked. 
-Middleware can do the follwing:
+- Middleare function have access to the req and res object and the next function, which is a function in the express router which executes middleware that comes after the current middleware, when invoked.  <br>
+Middleware can do the follwing: <br>
 - End request response cycle
 - Call next middleware in the stack
 - Execute any code
@@ -30,14 +30,30 @@ Middleware can do the follwing:
 Explain, using relevant examples, your strategy for implementing a REST-API with Node/Express  + TypeScript and demonstrate how you have tested the API.<br>
 - plenty of examples in repo
 Explain, using relevant examples, how to test JavaScript/Typescript Backend Code, relevant packages (Mocha, Chai etc.) and how to test asynchronous code.<br>
-- plenty of examples in repo
+- plenty of examples in repo <br>
 <br><br>
 NoSQL and MongoDB <br>
 Explain, generally, what is meant by a NoSQL database.<br>
-      Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, compared to a traditional Relational SQL Database like MySQL.<br>
- Explain about indexes in MongoDB, how to create them, and demonstrate how you have used them.<br>
+- NOSQL is a non-relational database (unlike MYSQL for instance) that doesn't store tables in tables, but documents and collections.
+Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, compared to a traditional Relational SQL Database like MySQL.<br>
+# PROS:
+- It's easy to setup
+- Works great for small simple applications
+- Data structure not as strict. 2 documents in same collections, don't have to have same attributes.
+- You can use indexes to enhance performance issues etc
+
+# CONS:
+- Data constraints are created manually
+- No easy data-overview as in a relational db.
+
+Explain about indexes in MongoDB, how to create them, and demonstrate how you have used them.<br>
+- Several examples in Day 6 of this repo.
+
 Explain, using your own code examples, how you have used some of MongoDB's "special" indexes like TTL and 2dsphere and perhaps also the Unique Index.<br>
+- Several examples in Day 6 of this repo.
 Demonstrate, using a REST-API designed by you, how to perform all CRUD operations on a MongoDB<br>
+- Check: ./Day 3/src/facades/user.ts /
+
 Explain, using a relevant example, a full JavaScript backend including relevant test cases to test the REST-API (not on the production database)<br>
       Demonstrate, using your own code-samples, decisions you have made regarding → normalization vs denormalization <br>
       <br>
