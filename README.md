@@ -3,6 +3,30 @@ Assignment 2 in full stack javascript
 
 Learning goals:<br>
 Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using, for example, Java/JAX-RS/Tomcat<br>
+#It's fast and easy to setup a working app with node.js 
+
+
+
+
+
+It's easy and fast to build and setup a working network application with node.js and the right editor.
+It's very handy that you can use the same language both in front-end and in the back-end.
+Not a lot of code is required for an application to run.
+Explain Pros & Cons in using Node.js + Express to implement your Backend compared to a strategy using for example Java/JAX-RS/Tomcat
+Pros
+You can make a good and responsive network application, if done right.
+Allows the use of data streaming, web sockets and fast file uploads.
+It's easy to set up a REST-API with generators like a custom boilerplate project, yeomon or express and mongoDB
+It is efficient at handling thousands of concurrent requests (For example - a chat application).
+It is very simple to implement server middleware, that will be executed between all requests.
+Cons
+Java is good at handling CPU heavy tasks, Node.JS + Express is not. Because Node is, despite its asynchronous event model, by nature single threaded. When you launch a Node process, you are running a single process with a single thread on a single core. So your code will not be executed in parallel, only I/O operations are parallel because they are executed asynchronous. As such, long running CPU tasks will block the whole server and are usually a bad idea.
+Java integrates well with relational databases like MySQL. Node.JS + Express does not, they have mongoDB but that isn't relational.
+Java as oppposed to Node.JS + Express is a strictly typed language which provides a certain security.
+500 errors in Node.JS and Express will crash the entire application, Java will not.
+Node.js uses a Single Threaded Non-blocking strategy 
+
+
 Explain the difference between Debug outputs and ApplicationLogging. What’s wrong with console.log(..) statements in our backend code.<br>
 Demonstrate a system using application logging and environment controlled debug statements.<br>
 Explain, using relevant examples, concepts related to testing a REST-API using Node/JavaScript/Typescript + relevant packages <br>
