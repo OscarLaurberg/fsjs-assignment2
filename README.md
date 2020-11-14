@@ -32,17 +32,17 @@ Explain, using relevant examples, your strategy for implementing a REST-API with
 Explain, using relevant examples, how to test JavaScript/Typescript Backend Code, relevant packages (Mocha, Chai etc.) and how to test asynchronous code.<br>
 - plenty of examples in repo <br>
 <br><br>
-NoSQL and MongoDB <br>
+## NoSQL and MongoDB <br>
 Explain, generally, what is meant by a NoSQL database.<br>
 - NOSQL is a non-relational database (unlike MYSQL for instance) that doesn't store tables in tables, but documents and collections.
 Explain Pros & Cons in using a NoSQL database like MongoDB as your data store, compared to a traditional Relational SQL Database like MySQL.<br>
-# PROS:
+### PROS:
 - It's easy to setup
 - Works great for small simple applications
 - Data structure not as strict. 2 documents in same collections, don't have to have same attributes.
 - You can use indexes to enhance performance issues etc
 
-# CONS:
+### CONS:
 - Data constraints are created manually
 - No easy data-overview as in a relational db.
 
@@ -54,14 +54,10 @@ Explain, using your own code examples, how you have used some of MongoDB's "spec
 Demonstrate, using a REST-API designed by you, how to perform all CRUD operations on a MongoDB<br>
 - Check: ./Day 3/src/facades/user.ts /
 
-Explain, using a relevant example, a full JavaScript backend including relevant test cases to test the REST-API (not on the production database)<br>
-      Demonstrate, using your own code-samples, decisions you have made regarding → normalization vs denormalization <br>
-      <br>
-      <br>
 Geo-location and Geojson<br>
 Explain and demonstrate basic Geo-JSON, involving as a minimum, Points and Polygons<br>
 Explain and demonstrate ways to create Geo-JSON test data<br>
 Explain the typical order of longitude and latitude used by Server-Side APIs and Client-Side APIs<br>
 Explain and demonstrate a REST API that implements geo-features, using a relevant geo-library and plain JavaScript<br>
- Explain and demonstrate a REST API that implements geo-features, using Mongodb’s geospatial queries and indexes.<br>
+Explain and demonstrate a REST API that implements geo-features, using Mongodb’s geospatial queries and indexes.<br>
 Explain and demonstrate how you have tested the gameFacade and gameAPI for the game-related parts of the period exercises<br>
